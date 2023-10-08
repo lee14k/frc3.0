@@ -1,6 +1,8 @@
 'use client'
 
-import useHandleResize from '../components/useHandleResize'
+import useHandleResize from './useHandleResize';
+
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 

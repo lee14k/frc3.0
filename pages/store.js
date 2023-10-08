@@ -1,6 +1,6 @@
 import Navbar from "@/Components/Navbar"
 import Footer from "@/Components/Footer"
-import {ProductBrowser} from '@ecwid/nextjs-ecwid-plugin'
+import ProductBrowser from "@/Components/ProductBrowser"
 
 export default function Store () {
     return (

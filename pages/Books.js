@@ -5,7 +5,7 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 
-import Footer from "@/components/Footer";
+import Footer from "@/Components/Footer";
 export default function Books() {
   const features = [
     {
