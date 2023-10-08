@@ -58,7 +58,7 @@ function Navbar() {
             <Link href="/Books">Books</Link>
           </li>
           <li>
-            <Link href="/Store">Store</Link>
+            <Link href="/store">Store</Link>
           </li>
         </ul>
       )}
