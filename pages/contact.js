@@ -17,7 +17,7 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/Components/Navbar";
 export default function Contact() {
   return (
     <>

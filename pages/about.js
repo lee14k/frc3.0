@@ -12,8 +12,8 @@
   }
   ```
 */
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import Navbar from '@/Components/Navbar'
+import Footer from '@/Components/Footer'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'

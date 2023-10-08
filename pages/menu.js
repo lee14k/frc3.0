@@ -1,8 +1,8 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/Components/Navbar";
 import Link from "next/link";
-import Footer from "@/components/Footer";
+import Footer from "@/Components/Footer";
 export default function Menu() {
   return (
     <div>

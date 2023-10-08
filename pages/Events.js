@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar'
-import Eventcontact from '@/components/Eventcontact'
+import Navbar from '@/Components/Navbar'
+import Eventcontact from '@/Components/Eventcontact'
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 const features = [

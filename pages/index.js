@@ -1,9 +1,9 @@
-import Navbar from '@/components/Navbar'
-import Homeslider from '@/components/Homeslider'
-import Mid from '@/components/Mid'
-import Midgrid from '@/components/Midgrid'
-import Footer from '@/components/Footer'
-import Bottommid from '@/components/Bottommid'
+import Navbar from '@/Components/Navbar'
+import Homeslider from '@/Components/Homeslider'
+import Mid from '@/Components/Mid'
+import Midgrid from '@/Components/Midgrid'
+import Footer from '@/Components/Footer'
+import Bottommid from '@/Components/Bottommid'
 
 export default function Home() {
   return (
