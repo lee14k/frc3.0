@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .bottommid {
   display: flex;
   flex-direction: column;
@@ -10,65 +9,65 @@
   align-items: center;
   padding-bottom: 100px;
   padding-top: 100px;
-    background-image: url("/bborder.png");
-    background-repeat: no-repeat;
-    background-size:1600px auto;
-    background-position:bottom;
-    padding-bottom:200px;
+  background-image: url("/bborder.png");
+  background-repeat: no-repeat;
+  background-size: 1600px auto;
+  background-position: bottom;
+  padding-bottom: 200px;
 }
 .slideshow {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-    z-index: 1;
-  }
-  
-  .slide.active {
-    opacity: 0.5;
-    z-index: 2;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .indicator {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-  }
-  
-  .indicator-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #ffffff;
-    margin: 0 5px;
-    opacity: 0.5;
-  }
-  
-  .indicator-dot.active {
-    opacity: 1;
-  }
-  
-  .overlay-logo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
   position: absolute;
-  display:flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 0.5;
+  z-index: 2;
+  transition: opacity 1s ease-in-out;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.indicator-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 0 5px;
+  opacity: 0.5;
+}
+
+.indicator-dot.active {
+  opacity: 1;
+}
+
+.overlay-logo {
+  position: absolute;
+  display: flex;
   height: auto;
   z-index: 2; /* This ensures that the logo appears on top of the slides */
   opacity: 1; /* Optional: to make the logo slightly transparent */
@@ -81,12 +80,11 @@
   padding-bottom: 150px;
   padding-top: 200px;
   background-image: url("/border.png");
-    background-repeat: no-repeat;
-    background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 .midp {
-      margin: 10px 90px 20px;
-
+  margin: 10px 90px 20px;
 }
 .contactform {
   background-image: linear-gradient(
@@ -95,11 +93,9 @@
       rgba(255, 255, 255, 0.5) 100%
     ),
     url("/frccofeeoutside.jpeg");
-    background-size:cover;
-    background-position:center; 
+  background-size: cover;
+  background-position: center;
 }
-
-
 
 .grids {
   display: grid;
@@ -107,7 +103,6 @@
   grid-template-rows: repeat(2, 1fr);
   margin: 0;
 }
-
 
 .one {
   background-image: url("/fillpic.png");
@@ -151,7 +146,6 @@
   display: flex;
 }
 
-
 .gridItemone {
   background-image: url("/frcbookspickme.jpeg");
   background-size: cover;
@@ -166,46 +160,46 @@
   height: 500px;
   width: 900px;
   margin: 0;
-  background-position:center bottom;
+  background-position: center bottom;
 }
 
 .nav {
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
-    list-style: none;
-  }
-  
-  .navbar .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
-  
-  .hamburger-icon .line {
-    width: 50%;
-    height: 2px;
-    background-color: #000;
-    margin-bottom: 6px;
-  }
-  
-  /* Styles for the open state of the hamburger menu */
-  .hamburger-icon.open .line:first-child {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .hamburger-icon.open .line:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .hamburger-icon.open .line:last-child {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  .topp {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar .hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.hamburger-icon .line {
+  width: 50%;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 6px;
+}
+
+/* Styles for the open state of the hamburger menu */
+.hamburger-icon.open .line:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-icon.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open .line:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.topp {
   margin-bottom: 50px;
 }
 
@@ -225,45 +219,42 @@
       rgba(255, 255, 255, 0.5) 100%
     ),
     url("/frccofeeoutside.jpeg");
-    background-size:cover;
+  background-size: cover;
 }
 
-
 .breakfast {
-    margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
 .breakfasthead {
-    margin-top:50px;
-    font-size:2rem;
+  margin-top: 50px;
+  font-size: 2rem;
 }
 
 .menuwrap {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .menupics {
-    display:flex;
+  display: flex;
 }
 
-
 .contactwrapper {
-  overflow-y:hidden;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 1200px) {
+  .homepage {
+    width: 1200px;
+  }
 
-.homepage {
-  width:1200px;
-}
-
-.slide {
-  width:100%;
-}
+  .slide {
+    width: 100%;
+  }
   .container {
     flex-direction: column;
   }
@@ -272,8 +263,7 @@
     width: 1200px;
     height: 500px;
     background-size: cover;
-    margin:0;
-
+    margin: 0;
   }
 
   .two {
@@ -281,23 +271,23 @@
     width: 1200px;
     height: 500px;
     background-size: cover;
-    margin:0;
-    
+    margin: 0;
   }
   .gridItemtwo {
-    width:1200px;
+    width: 1200px;
   }
   .gridItemone {
-    width:1200px;
-    background-size:cover;
+    width: 1200px;
+    background-size: cover;
   }
 
   .contactwrapper {
-max-height:2000px;  }
+    max-height: 2000px;
+  }
   .grids {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
   }
 }
