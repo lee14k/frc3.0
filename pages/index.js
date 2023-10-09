@@ -7,7 +7,7 @@ import Bottommid from '@/Components/Bottommid'
 
 export default function Home() {
   return (
-   <div>
+   <div className="homepage">
 <Navbar/>
 <Homeslider/>
 <Mid/>

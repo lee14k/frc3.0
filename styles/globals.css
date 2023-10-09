@@ -261,12 +261,13 @@
 
 @media screen and (max-width: 1200px) {
 
-body {
-  width:100vw;
-  overflow-x:hidden;
+.homepage {
+  width:1200px;
 }
-
  
+.slide {
+  width:100%;
+}
   .container {
     flex-direction: column;
   }
