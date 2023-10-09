@@ -98,12 +98,8 @@
     background-size:cover;
     background-position:center; 
 }
-@media screen and (max-width: 1200px) {
-.mid {
-  background-size:1000px auto;
-}
 
-}
+
 
 .grids {
   display: grid;
@@ -264,7 +260,7 @@
 .homepage {
   width:1200px;
 }
- 
+
 .slide {
   width:100%;
 }
@@ -275,7 +271,7 @@
     background-size: 500px;
     width: 1200px;
     height: 500px;
-    background-size: contain;
+    background-size: cover;
     margin:0;
 
   }
@@ -284,7 +280,7 @@
     background-size: 500px;
     width: 1200px;
     height: 500px;
-    background-size: contain;
+    background-size: cover;
     margin:0;
     
   }
