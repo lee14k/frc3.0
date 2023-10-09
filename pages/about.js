@@ -279,7 +279,7 @@ Welcome to the Falling Rock Cafe
                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                   <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                     <img
-                      src="./fallrockhist.jpg"
+                      src="./shelves.jpg"
                       alt=""
                       className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />

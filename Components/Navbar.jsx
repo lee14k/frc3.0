@@ -40,7 +40,7 @@ function Navbar() {
         </div>
       )}
       {(showMobile || !isMobile || dropdown) && (
-        <ul className={`nav ${dropdown ? 'open' : ''}`}>
+<ul className={`nav text-2xl ${dropdown ? "open" : ""} ${isMobile ? "mobile" : ""}`}>
           <li>
             <Link href="/">Home</Link>
           </li>

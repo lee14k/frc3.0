@@ -30,7 +30,7 @@ export default function Footer() {
     <footer className="bg-white">
       <div>
         <nav
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 mt-10"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
