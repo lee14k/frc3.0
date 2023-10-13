@@ -27,7 +27,7 @@ export default function Eventcontact() {
         <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
       </svg>
       <div className="mx-auto max-w-xl lg:max-w-4xl">
-        <h2 className="text-4xl font-bold tracking-tight text-gray-900">Want to perform at the Falling Rcok Cafe?</h2>
+        <h2 className="text-4xl font-bold tracking-tight text-gray-900">Want to perform at the Falling Rock Cafe?</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
 Fill out the form below and let's make it happen        </p>
         <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
