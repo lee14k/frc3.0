@@ -1,3 +1,8 @@
+'use client'
+
+import {useEffect, useState} from "react";
+
+
 const useHandleResize = (setIsMobile) => {
   useEffect(() => {
     const handleResize = () => {
@@ -14,3 +19,4 @@ const useHandleResize = (setIsMobile) => {
     return () => window.removeEventListener('resize', handleResize);
   }, [setIsMobile]);
 }
+export default useHandleResize;
