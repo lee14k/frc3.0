@@ -295,3 +295,37 @@
     align-items: center;
   }
 }
+
+/* Default layout for larger screens */
+.grids {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust as per your desktop layout */
+  /* Other styling */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 1200px) {
+  .grids {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  /* Adjust the order */
+  .gridItemone {
+    order: 1; /* First position */
+  }
+
+  .one { /* Assuming .one contains the first oneframe */
+    order: 2; /* Second position */
+  }
+
+  .gridItemtwo {
+    order: 3; /* Third position */
+  }
+
+  .two { /* Assuming .two contains the second oneframe */
+    order: 4; /* Fourth position */
+  }
+}
