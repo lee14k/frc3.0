@@ -59,6 +59,12 @@ export default function Navbar() {
                   >
                     Store
                   </a>
+                     <a
+                    href="/employment"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  >
+                    Employment
+                  </a>
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
@@ -148,6 +154,13 @@ export default function Navbar() {
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Store
+              </Disclosure.Button>
+               <Disclosure.Button
+                as="a"
+                href="/employment"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+              >
+                Employment
               </Disclosure.Button>
             </div>
       
