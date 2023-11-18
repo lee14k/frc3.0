@@ -347,6 +347,7 @@ flex-direction:column;}
   /* Other styling */
 }
 
+
 /* Media query for mobile devices */
 @media screen and (max-width: 1200px) {
   .grids {
@@ -372,4 +373,8 @@ flex-direction:column;}
   .two { /* Assuming .two contains the second oneframe */
     order: 4; /* Fourth position */
   }
+}
+
+.navbar-expanded {
+    padding-bottom: 50px; /* Adjust this value as needed */
 }
