@@ -13,7 +13,7 @@ export default function Navbar() {
 const aboutItems = [
   { title: "About Us", link: "/about" },
   { title: "Employment", link: "/employment" },
-  { title: "Vacation Suites", link: "/suites" },
+  { title: "Vacation Suites", link: "/Suites" },
   // Add more items as needed
 ];  const toggleDropdown = (dropdownName) => {
     if (activeDropdown === dropdownName) {
@@ -186,7 +186,7 @@ const aboutItems = [
               </Disclosure.Button>
                    <Disclosure.Button
                 as="a"
-                href="/employment"
+                href="/Suites"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Vacation Suites
