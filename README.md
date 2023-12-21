@@ -18,12 +18,11 @@ This is a website I created for a local cafe. I designed it with Nextjs, and Tai
 
 ## Features
 
-List the key features of your website, highlighting what sets it apart from others. This could include:
-
-- Basic information and web design
-- Contact form and event interest form
-- Ecwid shop integration
-- Employment form integration
+  - Easy to read, legible design choices including font sizes and colors
+  - Alignment to established brand standards
+  - Contact form and event interest form
+  - Ecwid shop integration
+  - Preexisting employment form integration
 
 
 ## Demo
